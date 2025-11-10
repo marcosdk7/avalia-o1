@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class ConversaoTemperatura {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Entrada de dados
+        System.out.print("Digite a temperatura em graus Celsius: ");
+        double celsius = scanner.nextDouble();
+
+        // Conversão
+        double fahrenheit = (celsius * 9 / 5) + 32;*
